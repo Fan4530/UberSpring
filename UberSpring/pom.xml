@@ -7,6 +7,32 @@
     <groupId>com.FanZhangProject</groupId>
     <artifactId>UberSpring</artifactId>
     <version>1.0.0-RELEASE-SNAPSHOT</version>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.3.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.3.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>4.3.0.RELEASE</version>
+        </dependency>
+    </dependencies>
+    <properties>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
 
 
 </project>
